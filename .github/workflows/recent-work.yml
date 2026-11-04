@@ -1,0 +1,37 @@
+name: Recently pushed
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"   # Mondays 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild the recently pushed list
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh repo list "$GITHUB_REPOSITORY_OWNER" --source --visibility public --limit 100 \
+            --json name,description,pushedAt,url \
+            --jq 'map(select(.name != "'"$GITHUB_REPOSITORY_OWNER"'"))
+                  | sort_by(.pushedAt) | reverse | .[:5][]
+                  | "- [\(.name)](\(.url)) · \((.description // "") | sub("^[^A-Za-z0-9]+"; "") | split(". ")[0] | if length > 100 then (.[:100] | sub(" [^ ]*$"; "") + "…") else . end) · <sub>\(.pushedAt[:10])</sub>"' > /tmp/recent.md
+          awk 'BEGIN{while((getline l < "/tmp/recent.md")>0) list=list l "\n"}
+               /<!-- recent:start -->/{print; printf "%s", list; skip=1; next}
+               /<!-- recent:end -->/{skip=0}
+               !skip' README.md > README.tmp && mv README.tmp README.md
+
+      - name: Commit if changed
+        run: |
+          git diff --quiet README.md && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Refresh recently pushed list"
+          git push
