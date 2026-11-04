@@ -19,8 +19,6 @@ Each case below ships as a repo with a Python pipeline, tests and a live site th
 | :-- | :-- | :-- |
 | [HDFC Bank: the 2% question](https://github.com/DogInfantry/Bank-Profitability) | Back to a 2% RoA by FY29 only through six funding levers, and the share price already assumes it | [Live&nbsp;↗](https://site-two-eta-4o267upa77.vercel.app) |
 | [Debt covenant surveillance](https://github.com/DogInfantry/dynamic-debt-covenant-surveillance-frame) | Covenant breach flags and cross-default cascades across 8 SEC filers | [Live&nbsp;↗](https://dynamic-debt-covenant-surveillance.vercel.app) |
-| [India LBO take-private screener](https://github.com/DogInfantry/India-LBO-Take-Pv-Screener) | A paper LBO on every NSE mid-cap with unused debt capacity, under RBI's February 2026 rules | [Live&nbsp;↗](https://india-lbo-take-pv-screener.vercel.app) |
-| [merger-lab](https://github.com/DogInfantry/merger-lab) | Accretion/dilution for Indian M&A. Two of three sample deals come back DECLINE | [Repo&nbsp;↗](https://github.com/DogInfantry/merger-lab) |
 
 ### 📈 Markets and quant research
 
