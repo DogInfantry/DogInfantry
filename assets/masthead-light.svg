@@ -17,8 +17,17 @@
       <text x="762" y="116" font-size="11" fill="#59636e">storm</text>
       <text x="846" y="116" font-size="11" fill="#59636e">calm</text>
     </g>
-    <rect x="0" y="156" width="880" height="0.75" fill="#d1d9e0"/>
-    <rect x="0" y="155" width="64" height="3" fill="#993C1D"/>
+    <g>
+      <rect x="0" y="155" width="97.8" height="3" fill="#00856e"/>
+      <rect x="97.8" y="155" width="97.8" height="3" fill="#3550a8"/>
+      <rect x="195.6" y="155" width="97.8" height="3" fill="#9c3f6d"/>
+      <rect x="293.3" y="155" width="97.8" height="3" fill="#b4531f"/>
+      <rect x="391.1" y="155" width="97.8" height="3" fill="#b03636"/>
+      <rect x="488.9" y="155" width="97.8" height="3" fill="#7a3d9e"/>
+      <rect x="586.7" y="155" width="97.8" height="3" fill="#9a7000"/>
+      <rect x="684.4" y="155" width="97.8" height="3" fill="#5d7519"/>
+      <rect x="782.2" y="155" width="97.8" height="3" fill="#0f7fa8"/>
+    </g>
     <text x="0" y="184" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#59636e">MBA, IIM Bodh Gaya   ·   Equities, credit and bank economics   ·   Public policy   ·   Product strategy</text>
   </g>
 </svg>
