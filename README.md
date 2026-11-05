@@ -38,14 +38,16 @@ Each project in the tables below ships as a repo with a Python pipeline, tests a
 | [Ground Truth: data centres](https://github.com/DogInfantry/datacentre-announced-vs-delivered) | About 619 MW is live of the 10.6 GW announced, read from filings | [![Live site](assets/pills/live.svg)](https://datacenter-capacity-audit.vercel.app) |
 | [Sustainable finance transition](https://github.com/DogInfantry/sustainable-finance-india-transition) | Green bonds, SEBI and RBI frameworks, and transition finance for hard-to-abate sectors | [![Live site](assets/pills/live.svg)](https://sustainable-finance-india-transitio.vercel.app) |
 
-### 🗂️ Case decks
+### 🗂️ Case decks and notes
 
-Case competition submissions, as slide decks rather than code: a brief, a recommendation and the numbers behind it.
+Documents rather than code: a brief or a question, an answer and the numbers behind it.
 
-| Case | What it recommends | Deck&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| Document | What it says | PDF&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :-- | :-- | :-- |
 | [Maha Navonmesh](https://portfolio-five-rouge-90.vercel.app/research/maha-navonmesh-tgc-2026)<br><sub>The Governance Challenge 2026</sub> | One pipeline to test, buy and scale deep tech. Maharashtra earmarks about ₹2,920 Cr a year; ₹12.5 Cr reaches startups as pilot orders | [![Deck PDF](assets/pills/deck.svg)](https://portfolio-five-rouge-90.vercel.app/research/maha-navonmesh-tgc-2026.pdf)<br><sub>30 pp</sub> |
 | [Cipla point of care diagnostics](https://portfolio-five-rouge-90.vercel.app/research/cipla-point-of-care-diagnostics)<br><sub>Cipla Ascend Season 2, Round 1</sub> | Build on prescriber reach: ₹615 Cr FY32 revenue at a 19% margin on labelled assumptions, starting with a 50 clinic pilot | [![Deck PDF](assets/pills/deck.svg)](https://portfolio-five-rouge-90.vercel.app/research/cipla-point-of-care-diagnostics.pdf)<br><sub>5 pp</sub> |
+| [NephroPlus: initiation of coverage](https://portfolio-five-rouge-90.vercel.app/research/nephroplus-initiation)<br><sub>Independent equity research</sub> | HOLD, Rs 605 target: India's largest dialysis chain, on a growth stock's multiple and prices the government sets | [![Read PDF](assets/pills/paper.svg)](https://portfolio-five-rouge-90.vercel.app/research/nephroplus-initiation.pdf)<br><sub>15 pp</sub> |
+| [India Markets Monthly, October 2026](https://portfolio-five-rouge-90.vercel.app/research/india-markets-monthly-oct-2026)<br><sub>Illustrative work sample</sub> | Bonds have stopped hedging equities: Nifty and G-sec return correlation went from 0.07 in 2025 to 0.45 in 2026 | [![Deck PDF](assets/pills/deck.svg)](https://portfolio-five-rouge-90.vercel.app/research/india-markets-monthly-oct-2026.pdf)<br><sub>14 pp</sub> |
 
 ### 🤖 AI workflows
 
@@ -59,11 +61,9 @@ Case competition submissions, as slide decks rather than code: a brief, a recomm
 - [Regulating the Retail Options Boom](https://papers.ssrn.com/abstract=7135161). SSRN working paper on what SEBI's 2024–25 index-derivatives curbs did to retail participation. [![Read](assets/pills/paper.svg)](https://papers.ssrn.com/abstract=7135161)
 - [Awareness Without Uptake](https://papers.ssrn.com/abstract=7239538). SSRN working paper on why rural households who know about a benefit still do not receive it. [![Read](assets/pills/paper.svg)](https://papers.ssrn.com/abstract=7239538)
 
-**Equity and desk research**
+**Equity research**
 
 - [Bharti Airtel: initiation of coverage](https://portfolio-five-rouge-90.vercel.app/research/bharti-airtel-initiation). Sum-of-the-parts valuation, HOLD, with the event that would change the rating set out in advance. [![Read](assets/pills/paper.svg)](https://portfolio-five-rouge-90.vercel.app/research/bharti-airtel-initiation.pdf)
-- [NephroPlus: initiation of coverage](https://portfolio-five-rouge-90.vercel.app/research/nephroplus-initiation). HOLD, Rs 605 target: India's largest dialysis chain, on a growth stock's multiple and prices the government sets. [![Read](assets/pills/paper.svg)](https://portfolio-five-rouge-90.vercel.app/research/nephroplus-initiation.pdf)
-- [India Markets Monthly, October 2026](https://portfolio-five-rouge-90.vercel.app/research/india-markets-monthly-oct-2026). Illustrative sample desk note from public data: bonds have stopped hedging equities. [![Read](assets/pills/paper.svg)](https://portfolio-five-rouge-90.vercel.app/research/india-markets-monthly-oct-2026.pdf)
 
 ### 🛠️ Toolkit
 
