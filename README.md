@@ -91,11 +91,11 @@ Documents rather than code: a brief or a question, an answer and the numbers beh
 <summary><b>Recently pushed</b></summary>
 
 <!-- recent:start -->
-- [Bank-Profitability](https://github.com/DogInfantry/Bank-Profitability) · HDFC Bank: the path back to 2% RoA · <sub>2026-11-04</sub>
-- [Signals-Before-Storms](https://github.com/DogInfantry/Signals-Before-Storms) · I built a Hidden Markov Model to find market regimes and allocate on them · <sub>2026-11-04</sub>
-- [sellside-research-engine](https://github.com/DogInfantry/sellside-research-engine) · Equity research dashboard and Python pipeline: DCF, reverse DCF, comps, factor screening and risk… · <sub>2026-11-04</sub>
-- [portfolio](https://github.com/DogInfantry/portfolio) · Portfolio - Strategy, Investment Research & Quantitative Tools · <sub>2026-11-02</sub>
-- [El_Nino](https://github.com/DogInfantry/El_Nino) · ENSO Macro Risk Desk - A Bloomberg-style terminal mapping El Niño/La Niña to commodity & sector… · <sub>2026-10-06</sub>
+- [Signals-Before-Storms](https://github.com/DogInfantry/Signals-Before-Storms) · I built a Hidden Markov Model to find market regimes and allocate on them · <sub>2026-11-07</sub>
+- [sellside-research-engine](https://github.com/DogInfantry/sellside-research-engine) · Equity research dashboard and Python pipeline: DCF, reverse DCF, comps, factor screening and risk… · <sub>2026-11-07</sub>
+- [El_Nino](https://github.com/DogInfantry/El_Nino) · ENSO Macro Risk Desk - A Bloomberg-style terminal mapping El Niño/La Niña to commodity & sector… · <sub>2026-11-06</sub>
+- [india-fs-pulse](https://github.com/DogInfantry/india-fs-pulse) · India built the world's largest real-time payments network, then priced the busiest half at zero · <sub>2026-11-05</sub>
+- [Bank-Profitability](https://github.com/DogInfantry/Bank-Profitability) · HDFC Bank: the path back to 2% RoA · <sub>2026-11-05</sub>
 <!-- recent:end -->
 
 </details>
